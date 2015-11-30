@@ -1,0 +1,25 @@
+%% Zotonic site configuration for TechEmpower benchmark
+[
+ %% This site is enabled or not.
+ {enabled, true},
+
+ %% Hostname on which this site runs
+ {hostname, "techempower:8000"},
+
+ %% PostgreSQL database connection
+ {dbhost, "DBHOST"},
+ {dbport, 5432},
+ {dbuser, "zotonic"},
+ {dbpassword, ""},
+ {dbdatabase, "zotonic"},
+ {dbschema, "public"},
+
+ %% Depcache settings. The maximum size in Mbs
+ {depcache_memory_max, 100},
+
+ %% Password for the 'admin' user.
+ {admin_password, "admin"},
+
+ %% What skeleton site this site is based on; for installing the initial data.
+ {skeleton, empty}
+].

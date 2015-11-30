@@ -1,0 +1,16 @@
+[
+ %% Test 1: JSON serialization
+ {test1, ["json"], controller_api, [{module, techempower}, {method, json}]},
+
+ %% Test 2: Single database query
+ {test2, ["db"], controller_api, [{module, techempower}, {method, db}]},
+
+ %% Test 3: Multiple database queries
+ {test3, ["queries"], controller_api, [{module, techempower}, {method, queries}]},
+
+ %% Test 5: Database updates
+ {test5, ["updates"], controller_api, [{module, techempower}, {method, updates}]},
+ 
+ %% Test 6: Plain text
+ {test6, ["plaintext"], controller_techempower_test6, []}
+].

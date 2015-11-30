@@ -83,3 +83,6 @@ nimcache
 # crystal
 .crystal
 *.out
+
+# zotonic
+frameworks/Erlang/zotonic/site/config

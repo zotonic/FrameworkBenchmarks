@@ -1,0 +1,10 @@
+{
+  "framework": "zotonic",
+  "tests": [{
+    "postgresql-raw": {
+      "setup_file": "setup",
+      "port": 8000,
+      "sort": 134
+  }
+  }]
+}
